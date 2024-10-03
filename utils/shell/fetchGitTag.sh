@@ -79,16 +79,6 @@ if [ -n "$latest_ver" ]; then
                 branchOut
             done
             
-            # cd to dir with go mod file
-            # git switch -c app_latest_ver master
-            # run go get -u githubURL@latest_ver
-            # run go mod tidy
-            # run git add
-            # run git commit
-            # run git push
-            # branch name syntax app_latest_ver
-            # rm -rf ${cwd}/versionUpdate/
-            
     fi
     echo "version: $latest_ver"
 else
